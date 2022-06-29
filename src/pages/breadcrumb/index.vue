@@ -1,0 +1,10 @@
+<template>
+    <div>
+        <zr-breadcrumb>
+            <zr-breadcrumb-item>首页</zr-breadcrumb-item>
+            <zr-breadcrumb-item>活动管理</zr-breadcrumb-item>
+            <zr-breadcrumb-item>活动列表</zr-breadcrumb-item>
+            <zr-breadcrumb-item>活动详情</zr-breadcrumb-item>
+        </zr-breadcrumb>
+    </div>
+</template>

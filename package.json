@@ -1,0 +1,31 @@
+{
+    "name": "zruiapp",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@zhaoqiancheng/zrui": "^1.3.9",
+        "mitt": "^3.0.0",
+        "sass": "^1.50.0",
+        "vite-plugin-dts": "^1.1.1",
+        "vue": "^3.2.25",
+        "vue-router": "^4.0.14"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.25",
+        "@types/vue": "^2.0.0",
+        "@vitejs/plugin-vue": "^2.2.0",
+        "autoprefixer": "^10.4.5",
+        "less": "^4.1.2",
+        "postcss": "^8.4.12",
+        "postcss-flexbugs-fixes": "^5.0.2",
+        "postcss-modules": "^4.3.1",
+        "typescript": "^4.5.4",
+        "vite": "^2.8.0",
+        "vite-plugin-compression": "^0.5.1",
+        "vite-plugin-md": "^0.12.4",
+        "vue-tsc": "^0.29.8"
+    }
+}
