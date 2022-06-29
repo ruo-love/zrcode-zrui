@@ -1,11 +1,36 @@
 # Vue 3 + Typescript + Vite
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+该项目是完全由Vue 3 + Typescript + Vite 构建 为开发者提供了27个高效的自定义常用组件
 
-## Recommended IDE Setup
+文档地址: http://114.132.197.72:10003
+Npm: https://www.npmjs.com/package/@zhaoqiancheng/zrui
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+## start
 
-## Type Support For `.vue` Imports in TS
+### npm、yarn 安装
+推荐使用 yarn 的方式安装，它能更好地和 webpack 打包工具配合使用。yarn add @zhaoqiancheng/zrui
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+npm i @zhaoqiancheng/zrui -S
+
+yarn add @zhaoqiancheng/zrui
+
+### 完整引入
+在 main.js 中写入以下内容：
+
+import ZRUI from '@zhaoqiancheng/zrui'
+
+import '@zhaoqiancheng/zrui/dist/style.css'
+
+app.use(ZRUI)
+
+### 按需引入
+在 main.js 中写入以下内容：
+
+import {zrButton} from '@zhaoqiancheng/zrui'
+
+import '@zhaoqiancheng/zrui/dist/style.css'
+
+app.use(zrButton)
+## 使用须知
+该项目是本人大三在校独立开发项目，仅供学习；
+如有建议请联系：1103661612@qq.com
