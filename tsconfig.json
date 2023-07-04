@@ -14,6 +14,12 @@
   "paths": {
     "@/*": ["src/*"]
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "node_modules/@zhaoqiancheng/zrui/dist/base.d.ts"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "node_modules/@zrcode/zrui/zrui/dist/base.d.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

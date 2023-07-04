@@ -1,27 +1,27 @@
 <template>
-    <div>
-        <zr-Button @click="success" types="success" />
-        <zr-Button @click="info" types="info" />
-        <zr-Button @click="error" types="error" />
-        <zr-Button @click="warning" types="warning" />
-    </div>
-    <showCode :code="code"></showCode>
+  <div>
+    <zr-Button @click="success" types="success" />
+    <zr-Button @click="info" types="info" />
+    <zr-Button @click="error" types="error" />
+    <zr-Button @click="warning" types="warning" />
+  </div>
+  <showCode :code="code"></showCode>
 </template>
 
 <script lang="ts" setup>
-import { zrMessage } from '@zhaoqiancheng/zrui'
+import { zrMessage } from "@zrcode/zrui/zrui"
 
 const success = () => {
-    zrMessage({ type: "success", message: "登录成功", },)
+  zrMessage({ type: "success", message: "登录成功" })
 }
 const info = () => {
-    zrMessage({ type: "info", message: "消息通知", },)
+  zrMessage({ type: "info", message: "消息通知" })
 }
 const error = () => {
-    zrMessage({ type: "error", message: "登录失败" },)
+  zrMessage({ type: "error", message: "登录失败" })
 }
 const warning = () => {
-    zrMessage({ type: "warning", message: "网络异常" },)
+  zrMessage({ type: "warning", message: "网络异常" })
 }
 
 const code = `
@@ -32,7 +32,7 @@ const code = `
     <zr-Button @click="warning" types="warning" />
 </div>
 
-import { zrMessage } from '@zhaoqiancheng/zrui'
+import { zrMessage } from '@zrcode/zrui/zrui'
 
 const success = () => {
     zrMessage({ type: "success", message: "登录成功" })
@@ -51,6 +51,6 @@ const warning = () => {
 
 <style scoped>
 .zr-button {
-    margin: 5px;
+  margin: 5px;
 }
 </style>

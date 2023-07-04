@@ -1,13 +1,15 @@
 /// <reference types="vite/client" />
 
-declare module '*.vue' {
-  import type { DefineComponent } from 'vue'
+declare module "*.vue" {
+  import type { DefineComponent } from "vue"
   // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/ban-types
   const component: DefineComponent<{}, {}, any>
 
   export default component
 }
-declare module '@zhaoqiancheng/zrui';
+
+declare module "@zrcode/zrui/zrui"
+declare module "@zrcode/zrui"
 declare module "@/pages/button/button_doc.md"
 declare module "@/pages/color/color_doc.md"
 declare module "@/pages/container/container_doc.md"
@@ -24,7 +26,7 @@ declare module "@/pages/tag/tag_doc.md"
 declare module "@/pages/progress/progress_doc.md"
 declare module "@/pages/tree/tree_doc.md"
 declare module "@/pages/message/message_doc.md"
-declare module '@/pages/alert/alert_doc.md'
+declare module "@/pages/alert/alert_doc.md"
 declare module "@/pages/loading/loading_doc.md"
 declare module "@/pages/message/message_doc.md"
 declare module "@/pages/messageBox/messageBox_doc.md"
